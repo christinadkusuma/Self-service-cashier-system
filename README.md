@@ -61,6 +61,18 @@ This project aims to create a self-service cashier system with the following flo
 9. The `update_item_quantity(self, item_name, new_quantity)` method is used to update the number of items. It has two parameters, `item_name` is the name of the item whose quantity you want to update, and new_quantity is the number of new items.
     
 10. The `update_item_price(self, item_name, new_price)` method is used to update the item price. It has two parameters, `item_name` is the name of the item whose price you want to update, and `new_price` is the price of the new item.
+    
+11. Method `delete_item(self, item_name)` to delete items from the transaction. The item_name parameter is the name of the item you want to delete.
+    
+12.	Method `reset_transaction(self)` to empty or delete all items from the shopping cart.
+    
+13. Method `check_order(self)` is a method to display all orders that have been made in table form containing item number, item name, number of items, price per item, and total price (multiplication of number of items and price per item).
+    
+14.	`Total_price(self)` is a method to calculate the total price and discount obtained from all items that have been added to the items list. This method processes a 10% discount if the total purchase is more than IDR 500,000.00, 8% if the total purchase is more than IDR 300,000.00, or 5% if the total purchase is more than IDR 200,000.00.
+​
+
+
+    
 
    
 
