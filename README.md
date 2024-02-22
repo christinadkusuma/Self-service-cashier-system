@@ -53,9 +53,13 @@ This project aims to create a self-service cashier system with the following flo
 5. The `self.total_price` attribute is a reference to the total_price attribute in the instance (object) created.
 
 6. The `self.discount` attribute is a reference to the discount attribute in the instance (object) created.
+   
 7. Method `add_item(self, item)` to add items to the transaction into a list of items containing three elements, including: item name [0], number of items [1], and price per item [2].
-8. 	The `update_item_name(self, item_name, new_item)` method is used to update the item name. It has two parameters, `item_name` is the name of a previously existing item, and `new_item` is the name of the new item.
-9. 	The `update_item_quantity(self, item_name, new_quantity)` method is used to update the number of items. It has two parameters, `item_name` is the name of the item whose quantity you want to update, and new_quantity is the number of new items.
+   
+8. The `update_item_name(self, item_name, new_item)` method is used to update the item name. It has two parameters, `item_name` is the name of a previously existing item, and `new_item` is the name of the new item.
+    
+9. The `update_item_quantity(self, item_name, new_quantity)` method is used to update the number of items. It has two parameters, `item_name` is the name of the item whose quantity you want to update, and new_quantity is the number of new items.
+    
 10. The `update_item_price(self, item_name, new_price)` method is used to update the item price. It has two parameters, `item_name` is the name of the item whose price you want to update, and `new_price` is the price of the new item.
 
    
