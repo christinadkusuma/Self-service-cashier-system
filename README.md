@@ -72,7 +72,8 @@ This project aims to create a self-service cashier system with the following flo
 
 ---
 
-## Test Case
+## Conclusion
+Self-service cashier system is created using the Python programming language to make it easier for customers to carry out shopping transactions. This system has some features such as adding items, updating item names, updating the number of items, updating item prices, deleting one item, deleting all items, calculating the total item price and discounts obtained, and displaying a shopping table.
 
 
 ​
