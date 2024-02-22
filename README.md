@@ -1,6 +1,6 @@
 # Self-service cashier system with Python
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
-## Background Problem
+## Background of the Problem
 A supermarket owner named Andi has plans to improve his business by creating a self-service cashier system. The system allows customers to input the items purchased, the number of items, the price of the items, and other features. So, Andi needs a programmer to create the cashier system.
 
 ---
