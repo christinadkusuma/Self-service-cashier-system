@@ -36,7 +36,7 @@ This project aims to create a self-service cashier system with the following flo
 ---
 
 ## Flowchart
-![gambar_flowcahrt.png](https://github.com/christinadkusuma/Self-service-cashier-system/blob/main/img/Flowchart.png)
+![image](https://github.com/christinadkusuma/Self-service-cashier-system/blob/main/img/Flowchart.png)
 
 ---
 
@@ -72,6 +72,38 @@ This project aims to create a self-service cashier system with the following flo
 
 ---
 
+## Test Case 1
+Add 2 items by using method `add_item`.
+
+**Input:**<br />
+1. `trnsct_123.add_item(["Ayam Goreng", 2, 20000.00])`
+2. `trnsct_123.add_item(["Pasta Gigi", 3, 15000.00])`
+3. `print("Item yang dibeli adalah: ", trnsct_123.items)`
+
+**Output:**<br />
+
+---
+## Test Case 2
+Delete item by using method `delete_item`.
+
+**Input:**<br />
+1. `trnsct_123.delete_item("Pasta Gigi")`
+2. `print("Item yang dibeli adalah: ", trnsct_123.items)`
+
+**Output:**<br />
+
+---
+## Test Case 3
+Delete all items by using method `reset_transaction`.
+
+**Input:**<br />
+`trnsct_123.reset_transaction()`
+
+**Output:**
+
+
+
+---
 ## Conclusion
 Self-service cashier system is created using the Python programming language to make it easier for customers to carry out shopping transactions. This system has some features such as adding items, updating item names, updating the number of items, updating item prices, deleting one item, deleting all items, calculating the total item price and discounts obtained, and displaying a shopping table.
 
