@@ -68,7 +68,13 @@ This project aims to create a self-service cashier system with the following flo
     
 13. Method `check_order(self)` is a method to display all orders that have been made in table form containing item number, item name, number of items, price per item, and total price (multiplication of number of items and price per item).
     
-14.	`Total_price(self)` is a method to calculate the total price and discount obtained from all items that have been added to the items list. This method processes a 10% discount if the total purchase is more than IDR 500,000.00, 8% if the total purchase is more than IDR 300,000.00, or 5% if the total purchase is more than IDR 200,000.00.
+14.	`Total_price(self)` is a method to calculate the total price and discount obtained from all items that have been added to the items list. This method processes a 10% discount if the total purchase is more than IDR 500,000, 8% if the total purchase is more than IDR 300,000, or 5% if the total purchase is more than IDR 200,000.
+
+---
+
+## Test Case
+
+
 ​
 
 
