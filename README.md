@@ -1,4 +1,4 @@
-# Self-service-cashier-system with Python
+# Self service cashier system with Python
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
 ## Background Problem
 A supermarket owner named Andi has plans to improve his business by creating a self-service cashier system. The system allows customers to input the items purchased, the number of items, the price of the items, and other features. So, Andi needs a programmer to create the cashier system.
@@ -35,4 +35,18 @@ This project aims to create a self-service cashier system with the following flo
 
 ## Flowchart
 ![gambar_flowcahrt.png](https://github.com/christinadkusuma/Self-service-cashier-system/blob/main/img/Flowchart.png)
+
+## Explanation of Attributes and Methods
+
+1. The `items` attribute has a list type, used to store all items in the transaction.
+   
+2. The `total_price` attribute has the float type, used to store the total price of an item after discounts.
+
+3. The `discount` attribute has the float type, used to store the total amount of discount obtained.
+   
+4. The `self.items` attribute is a reference to the items attribute in the instance (object) created.
+   
+5. The `self.total_price` attribute is a reference to the total_price attribute in the instance (object) created.
+   
+
 
