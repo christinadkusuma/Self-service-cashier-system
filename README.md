@@ -75,12 +75,14 @@ This project aims to create a self-service cashier system with the following flo
 ## Test Case 1
 Add 2 items by using `add_item` method.
 
-**Input:**<br />
+**Input:**
 1. `trnsct_123.add_item(["Ayam Goreng", 2, 20000])`
 2. `trnsct_123.add_item(["Pasta Gigi", 3, 15000])`
 3. `print("Item yang dibeli adalah: ", trnsct_123.items)`
 
-**Output:**<br />
+**Output:**
+
+![image](https://github.com/christinadkusuma/Self-service-cashier-system/blob/main/img/test%20case%201.png)
 
 ---
 ## Test Case 2
@@ -92,6 +94,8 @@ Delete item by using `delete_item` method.
 
 **Output:**<br />
 
+![image](https://github.com/christinadkusuma/Self-service-cashier-system/blob/main/img/test%20case%202.png)
+
 ---
 ## Test Case 3
 Delete all items by using `reset_transaction` method.
@@ -99,7 +103,10 @@ Delete all items by using `reset_transaction` method.
 **Input:**<br />
 `trnsct_123.reset_transaction()`
 
+
 **Output:**
+
+![image](https://github.com/christinadkusuma/Self-service-cashier-system/blob/main/img/test%20case%203.png)
 
 ---
 ## Test Case 4
@@ -116,6 +123,7 @@ Add item and calculate the total purchase by using `total_price` method. Then sh
 
 **Output:**<br />
 
+![image](https://github.com/christinadkusuma/Self-service-cashier-system/blob/main/img/test%20case%204.png)
 
 
 ---
