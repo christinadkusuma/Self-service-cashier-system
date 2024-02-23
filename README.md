@@ -23,7 +23,7 @@ This project aims to create a self-service cashier system with the following flo
    
    b). reset all transactions
    
-5. If the customers have finished purchasing, but are still unsure whether the price of the goods and name entered are correct, the customers can check the order with the following output:
+5. If the customers have finished purchasing, but are still unsure whether the price of the items and name entered are correct, the customers can check the order with the following output:
    
    a). Issue the message "Order is correct" if there are no input errors.
    
@@ -73,18 +73,18 @@ This project aims to create a self-service cashier system with the following flo
 ---
 
 ## Test Case 1
-Add 2 items by using method `add_item`.
+Add 2 items by using `add_item` method.
 
 **Input:**<br />
-1. `trnsct_123.add_item(["Ayam Goreng", 2, 20000.00])`
-2. `trnsct_123.add_item(["Pasta Gigi", 3, 15000.00])`
+1. `trnsct_123.add_item(["Ayam Goreng", 2, 20000])`
+2. `trnsct_123.add_item(["Pasta Gigi", 3, 15000])`
 3. `print("Item yang dibeli adalah: ", trnsct_123.items)`
 
 **Output:**<br />
 
 ---
 ## Test Case 2
-Delete item by using method `delete_item`.
+Delete item by using `delete_item` method.
 
 **Input:**<br />
 1. `trnsct_123.delete_item("Pasta Gigi")`
@@ -94,14 +94,27 @@ Delete item by using method `delete_item`.
 
 ---
 ## Test Case 3
-Delete all items by using method `reset_transaction`.
+Delete all items by using `reset_transaction` method.
 
 **Input:**<br />
 `trnsct_123.reset_transaction()`
 
 **Output:**
 
+---
+## Test Case 4
+Add item and calculate the total purchase by using `total_price` method. Then show the list of order by using `check_order` method.
 
+**Input:**<br />
+1. `trnsct_123.add_item(["Ayam goreng", 2, 20000])`
+2. `trnsct_123.add_item(["Pasta gigi", 3, 15000])`
+3. `trnsct_123.add_item(["Mainan mobil", 1, 200000])`
+4. `trnsct_123.add_item(["Mie Instan", 5, 3000])`
+5. `print(trnsct_123.items)`
+6. `trnsct_123.total_price()`
+7. `trnsct_123.check_order()`
+
+**Outputnya adalah:**<br />
 
 ---
 ## Conclusion
