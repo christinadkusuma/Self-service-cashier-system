@@ -31,7 +31,7 @@ This project aims to create a self-service cashier system with the following flo
    
    c). Displays a table containing all order data.
    
-7. Finally, customers can display the total price to be paid and the discount obtained (if any).
+7. Finally, the customers can display the total price of the items which should be paid and the discount obtained (if any).
 
 ---
 
