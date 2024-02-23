@@ -114,7 +114,9 @@ Add item and calculate the total purchase by using `total_price` method. Then sh
 6. `trnsct_123.total_price()`
 7. `trnsct_123.check_order()`
 
-**Outputnya adalah:**<br />
+**Output:**<br />
+
+
 
 ---
 ## Conclusion
