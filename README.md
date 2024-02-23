@@ -1,7 +1,7 @@
 # Self-service cashier system with Python
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
 ## Background of the Problem
-A supermarket owner named Andi has plans to improve his business by creating a self-service cashier system. The system allows customers to input the items purchased, the number of items, the price of the items, and other features. So, Andi needs a programmer to create the cashier system.
+A supermarket owner named Andi has plans to improve his business by creating a self-service cashier system. The system allows the customers to input the items purchased, the number of items, the price of the items, and other features. So, Andi needs a programmer to create the cashier system.
 
 ---
 
@@ -58,17 +58,17 @@ This project aims to create a self-service cashier system with the following flo
    
 8. The `update_item_name(self, item_name, new_item)` method is used to update the item name. It has two parameters, `item_name` is the name of a previously existing item, and `new_item` is the name of the new item.
     
-9. The `update_item_qty(self, item_name, new_qty)` method is used to update the number of items. It has two parameters, `item_name` is the name of the item whose quantity you want to update, and new_qty is the number of new items.
+9. The `update_item_qty(self, item_name, new_qty)` method is used to update the number of items. It has two parameters, `item_name` is the name of the item which quantity  want to update, and new_qty is the number of new items.
     
-10. The `update_item_price(self, item_name, new_price)` method is used to update the item price. It has two parameters, `item_name` is the name of the item whose price you want to update, and `new_price` is the price of the new item.
+10. The `update_item_price(self, item_name, new_price)` method is used to update the item price. It has two parameters, `item_name` is the name of the item which price want to update, and `new_price` is the price of the new item.
     
-11. Method `delete_item(self, item_name)` to delete items from the transaction. The item_name parameter is the name of the item you want to delete.
+11. Method `delete_item(self, item_name)` to delete items from the transaction. The item_name parameter is the name of the item which want to delete.
     
 12.	Method `reset_transaction(self)` to empty or delete all items from the shopping cart.
     
 13. Method `check_order(self)` is a method to display all orders that have been made in table form containing item number, item name, number of items, price per item, and total price (multiplication of number of items and price per item).
     
-14.	`Total_price(self)` is a method to calculate the total price and discount obtained from all items that have been added to the items list. This method processes a 10% discount if the total purchase is more than IDR 500,000, 8% if the total purchase is more than IDR 300,000, or 5% if the total purchase is more than IDR 200,000.
+14.	`Total_price(self)` is a method to calculate the total price and discount obtained from all items that have been added to the items list. This method processes a 10% discount if the total purchase is more than IDR 500,000 ; 8% if the total purchase is more than IDR 300,000 ; or 5% if the total purchase is more than IDR 200,000.
 
 ---
 
