@@ -58,7 +58,7 @@ This project aims to create a self-service cashier system with the following flo
    
 8. The `update_item_name(self, item_name, new_item)` method is used to update the item name. It has two parameters, `item_name` is the name of a previously existing item, and `new_item` is the name of the new item.
     
-9. The `update_item_qty(self, item_name, new_qty)` method is used to update the number of items. It has two parameters, `item_name` is the name of the item which quantity  want to update, and `new_qty` is the number of new items.
+9. The `update_item_qty(self, item_name, new_qty)` method is used to update the number of items. It has two parameters, `item_name` is the name of the item which quantity  want to update, and `new_qty` is the number of new item.
     
 10. The `update_item_price(self, item_name, new_price)` method is used to update the item price. It has two parameters, `item_name` is the name of the item which price want to update, and `new_price` is the price of the new item.
     
